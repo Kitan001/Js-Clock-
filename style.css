@@ -1,0 +1,33 @@
+body{
+    margin:0%;
+    padding:0%;
+    background-color:black;
+}
+.container{
+    box-sizing: border-box;
+    border: 1px solid white;
+    width: 80vh;
+    height: 20vh;
+    text-align: center;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, rgba(255,255,255, 0.1));
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    transition-property: background;
+}
+.container:hover{
+    transition: .9s ease;
+    cursor: pointer;
+    background: #2E94E3;
+    box-shadow: 0 0 30px #2E94E3;
+}
+.date{
+    font-size: 20px;
+    margin-top: 20px;
+}
